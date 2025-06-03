@@ -19,7 +19,7 @@
     });
   };
 
-  const ready = (fn: () => void) => {
+  const ready = (fn) => {
     if (typeof window === 'undefined') return;
 
     if (document.readyState !== 'loading') {
